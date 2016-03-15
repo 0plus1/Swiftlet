@@ -12,7 +12,7 @@ use \Swiftlet\Factories\View as ViewFactory;
 try {
 	$view = ViewFactory::build();
 
-	$app = AppFactory::build($view, 'HelloWorld');
+	$app = AppFactory::build($view, 'RedditPics');
 
 	// Convert errors to ErrorException instances
 	set_error_handler(array($app, 'error'), E_ALL | E_STRICT);

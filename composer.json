@@ -22,6 +22,7 @@
 	},
 	"autoload": {
 		"psr-4": { 
+			"RedditPics\\": "src/RedditPics",
 			"HelloWorld\\": "src/HelloWorld",
 			"Mock\\": "src/Mock",
 			"Swiftlet\\": "src/Swiftlet"
